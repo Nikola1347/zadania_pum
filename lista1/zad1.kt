@@ -13,7 +13,7 @@ fun foo(num: Int): String {
     return result.toString()
 }
 
-fun main() {=
+fun main() {
     val num = 15
     println(foo(num))
 }
