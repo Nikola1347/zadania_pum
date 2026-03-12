@@ -1,5 +1,5 @@
 fun checkArmstrong(n: Int): Boolean {
-    val digits = n.toString().map { it.digitToInt() }
+    val digits = n.toString().map { char -> char.digitToInt() }
     val power = digits.size
     var sum = 0
     
