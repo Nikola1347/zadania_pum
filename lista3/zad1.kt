@@ -8,5 +8,7 @@ fun findDuplicates(list: List<Int>): List<Int> {
     return duplicates.sorted()
 }
 
-val lst = listOf(0, 1, 1, 1, 4, 4, 4, 9, 3, 3, 3, 3, 3, 3)
-println(findDuplicates(lst))
+fun main(){
+    val lst = listOf(0, 1, 1, 1, 4, 4, 4, 9, 3, 3, 3, 3, 3, 3)
+    println(findDuplicates(lst))
+}
