@@ -1,7 +1,7 @@
 //zad3
 import java.time.LocalDate
 import java.time.Month
-import kotlin.random.Random
+import kotlin.random.*
 
 enum class CostType(val costType: String) {
     REFUELING("Tankowanie"),
