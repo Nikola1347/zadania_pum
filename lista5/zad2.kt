@@ -56,7 +56,7 @@ fun KalkulatorScreen() {
     val isPortrait = configuration.orientation == android.content.res.Configuration.ORIENTATION_PORTRAIT
 
     Column(
-        horizontalAlignment = Alignment.CenterHorizontally, //ustawienie w kolumnie
+        horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center, //centrowanie
         modifier = Modifier
             .fillMaxSize()
